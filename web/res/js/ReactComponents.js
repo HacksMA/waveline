@@ -1,23 +1,8 @@
 /*SuperGlobal Var*/
 var initData = {};
 
-
-
-var Component = React.createReactClass({
-  render() {
-    return <Child />;
-}
-});
-
-// After (15.5)
 var React = require('react');
-var createReactClass = require('create-react-class');
-
-var Component = createReactClass({
-  render() {
-    return <Child />;
-}});
-
+var React.createReactClass = require('create-react-class');
 
 
 ///////////////////////////////////Additional Script//////////////////////////////////////////
