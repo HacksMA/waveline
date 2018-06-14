@@ -18,7 +18,7 @@ var Component = createReactClass({
   mixins: [MixinA],
   render() {
     return <Child />;
-});
+}});
 
 
 
