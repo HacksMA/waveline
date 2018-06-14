@@ -4,7 +4,6 @@ var initData = {};
 
 
 var Component = React.createReactClass({
-  mixins: [MixinA],
   render() {
     return <Child />;
 }
@@ -15,7 +14,6 @@ var React = require('react');
 var createReactClass = require('create-react-class');
 
 var Component = createReactClass({
-  mixins: [MixinA],
   render() {
     return <Child />;
 }});
